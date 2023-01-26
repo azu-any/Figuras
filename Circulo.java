@@ -16,6 +16,6 @@ public class Circulo {
 		return (double) (2*3.1415*this.radio);
 	}
 	public double getArea() {
-		return (double) 3.1415*this.radio*this.radio;
+		return (double) Math.PI*this.radio*this.radio;
 	}
 }

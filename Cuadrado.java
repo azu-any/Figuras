@@ -14,7 +14,7 @@ public class Cuadrado {
 	}
 	
 	public double getDiagonal() {
-		return (double) Math.sqrt(2*Math.pow(this.longitud, 2));
+		return (double) Math.sqrt(2*(this.longitud*this.longitud));
 	}
 	
 	public double getPerimetro() {

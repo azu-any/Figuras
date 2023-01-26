@@ -34,6 +34,7 @@ public class Main {
 					break;
 					
 				default:
+					System.out.println("No se puede hacer eso.");
 					break;
 			}
 		} else if(figura.contains("circulo")) {
@@ -56,12 +57,15 @@ public class Main {
 					break;
 					
 				default:
+					System.out.println("No se puede hacer eso.");
 					break;
 			}
+		} else {
+			System.out.println("No se puede hacer eso.");
 		}
 		
-		
+		scan.close();
 
 	}
-
+	
 }
